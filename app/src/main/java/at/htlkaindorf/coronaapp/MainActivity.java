@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void weiterleitenAufAnmeldung(View view)
     {
-        Intent intent=new Intent(this,Anmeldung.class);
+        //Intent intent=new Intent(this,Anmeldung.class);
+        Intent intent=new Intent(this,LoginActivity.class);
         startActivity(intent);
     }
     public void weiterleitenAufCoronaPassScanner(View view)

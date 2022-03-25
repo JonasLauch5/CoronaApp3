@@ -8,10 +8,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
-
-
-
     <TextView
         android:id="@+id/id_tvCoronaApp"
         android:layout_width="match_parent"
