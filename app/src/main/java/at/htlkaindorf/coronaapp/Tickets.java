@@ -13,7 +13,6 @@ public class Tickets extends AppCompatActivity implements View.OnClickListener {
     private Button btSpiel2;
     private Button btSpiel3;
     private Button btSpiel4;
-    private Button btSpiel5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,13 +22,11 @@ public class Tickets extends AppCompatActivity implements View.OnClickListener {
         btSpiel2=(Button)findViewById(R.id.id_btSpiel2);
         btSpiel3=(Button)findViewById(R.id.id_btSpiel3);
         btSpiel4=(Button)findViewById(R.id.id_btSpiel4);
-        btSpiel5=(Button)findViewById(R.id.id_btSpiel5);
 
         btSpiel1.setOnClickListener(this);
         btSpiel2.setOnClickListener(this);
         btSpiel3.setOnClickListener(this);
         btSpiel4.setOnClickListener(this);
-        btSpiel5.setOnClickListener(this);
     }
 
 
