@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
         btZertifikate=(Button) findViewById(R.id.id_btZertifikate);
         btTickets=(Button) findViewById(R.id.id_btTickets);
 
-        btAnmeldung.setOnClickListener((view)-> weiterleitenAufAnmeldung(view));
+        btAnmeldung.setOnClickListener(view-> {Intent intent=new Intent(this,News.class);
+                                            startActivity(intent);});
         btZertifikate.setOnClickListener(view -> weiterleitenAufCoronaPassScanner(view));
         btTickets.setOnClickListener(view -> weiterleitenAufSpielseite(view));
     }
@@ -37,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void weiterleitenAufAnmeldung(View view)
     {
-        Toast.makeText(this, "HEHIijdijui", Toast.LENGTH_SHORT).show();
         Intent intent=new Intent(this,Anmeldung.class);
         startActivity(intent);
     }
