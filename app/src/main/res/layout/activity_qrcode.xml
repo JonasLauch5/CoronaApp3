@@ -28,11 +28,18 @@
     <TextView
         android:id="@+id/textView8"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:gravity="center_vertical"
         android:text="Danke für die Anmeldung und für den Kauf!!!"
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/id_btBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:text="Zurück zur Hauptseite" />
 </LinearLayout>
